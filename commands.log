@@ -1,0 +1,13 @@
+https://github.com/nkant39/basics_101.git
+git init
+git commit -m "first commit"
+git remote add origin https://github.com/nkant39/basics_101.git
+git status
+git add a.py
+git status
+git commit -m "new file a"
+git config --global user.email "vsharma7@xavient.com"
+git config --global user.name "Vikas"
+git commit -m "new file a"
+git status
+git push -u origin master
